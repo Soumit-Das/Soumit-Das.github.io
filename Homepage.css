@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Logo{
+    height: 70px;
+    width: 100px;
+}
+.navbar{
+    /* border: 2px solid red; */
+    width: 99.7%;
+    position: absolute;
+    z-index: 80;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+.nav_parent>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.nav_parent>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+  .nav_parent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-family: Inter-Bold,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+}
+.banner{
+    border: 2px solid red;
+}
+.mypicdiv{
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 20;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+.mypicdiv>img{ 
+height: 100%;
+width: 100%;
+}
