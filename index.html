@@ -22,10 +22,10 @@
                 <li id="about" class="about section"><a href="#section2">About</a></li>
                 <li id="skills"><a href="#section3">Skills</a></li>
                 <li id="projects"><a href="#section4">Projects</a></li>
-                <li id="Navbar-contact"><a href="#section6">Contacts</a></li>
+                <li id="contact"><a href="#section6">Contacts</a></li>
             </ul>
         </div>
-        <button class="button-34" role="button"><a href="/Soumit-Das-Resume (2).pdf"  target="_blank">Resume</a></button>
+        <button id="resume-button-2" class="button-34" role="button"><a id="resume-link-2" href="/Soumit-Das-Resume (2).pdf"  target="_blank">Resume</a></button>
     </nav>
     <!-- Navbar ends -->
 
@@ -45,7 +45,7 @@
 
     <!-- Banner -->
 
-    <div class="banner" id="section1">
+    <div class="banner" id="section1" class="nav-link home">
 
         <div class="bannerimgdiv">
             <img class="banner_img" src="/Portfolio website banner 1.png" alt="">
@@ -53,20 +53,20 @@
 
 
         <div class="mypicdiv">
-            <img class="My_picture" src="/Sou 07.02.2023/DSC_0100.JPG" alt="">
+            <img class="home-img" class="My_picture" src="/Sou 07.02.2023/DSC_0100.JPG" alt="">
         </div>
 
         <div class="name_in_banner">
 
             <h2 id="I_am_colors">I'm</h2>
             <!-- <br> -->
-            <h1>SOUMIT</h1>
+            <h1 id="user-detail-name">SOUMIT</h1>
             <h1>DAS</h1>
         </div>
     </div>
 
     <!-- Section 2 starts-->
-    <div class="section2">
+    <div class="section2" class="nav-link about">
         <h2 id="section2">About Me</h2>
 
         <!-- Line colors code starts -->
@@ -79,7 +79,7 @@
 
         <!-- Line colors code ends -->
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi corrupti delectus consectetur architecto
+        <p id="user-detail-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi corrupti delectus consectetur architecto
             accusantium quisquam tenetur laboriosam neque est nulla, sint, reiciendis quis atque, ullam iusto omnis
             dolorem quaerat voluptatum totam temporibus. Aliquid sapiente possimus voluptate a nemo aut molestiae omnis
             fugit sequi, vero vitae delectus adipisci quam rerum!</p>
@@ -89,7 +89,7 @@
 
     <!-- Section 3 starts -->
 
-    <div class="section3">
+    <div class="section3" class="nav-link skills">
 
         <h2 id="section3">Skills</h2>
         <!-- Line colors code starts -->
@@ -104,41 +104,41 @@
 
         <div class="skillsdiv">
             <!-- ------------------------------- -->
-            <div class="skills_logos">
-                <img width="50%" height="50%" src="/Languages logos/html_logo-removebg-preview.png" alt="">
-                <h4>HTML</h4>
+            <div class="skills_logos"  class="skills-card">
+                <img class="skills-card-img" width="50%" height="50%" src="/Languages logos/html_logo-removebg-preview.png" alt="">
+                <h4 class="skills-card-name">HTML</h4>
             </div>
             <!-- ------------------------------- -->
-            <div class="skills_logos">
-                <img width="50%" height="50%" src="/Languages logos/CSS_logo-removebg-preview (1).png" alt="">
-                <h4>CSS</h4>
+            <div class="skills_logos"  class="skills-card">
+                <img class="skills-card-img" width="50%" height="50%" src="/Languages logos/CSS_logo-removebg-preview (1).png" alt="">
+                <h4 class="skills-card-name">CSS</h4>
             </div>
             <!-- ------------------------------- -->
-            <div class="skills_logos">
-                <img width="50%" height="50%" border-radius="5px" src="/Languages logos/JS logo.png" alt="">
-                <h4>JavaScript</h4>
+            <div class="skills_logos"  class="skills-card">
+                <img class="skills-card-img" width="50%" height="50%" border-radius="5px" src="/Languages logos/JS logo.png" alt="">
+                <h4 class="skills-card-name">JavaScript</h4>
             </div>
             <!-- ------------------------------- -->
-            <div class="skills_logos">
-                <img width="50%" height="50%" src="/Languages logos/Java_logo-removebg-preview.png" alt="">
-                <h4>JAVA</h4>
+            <div class="skills_logos"  class="skills-card">
+                <img class="skills-card-img" width="50%" height="50%" src="/Languages logos/Java_logo-removebg-preview.png" alt="">
+                <h4 class="skills-card-name">JAVA</h4>
             </div>
             <!-- ------------------------------- -->
-            <div class="skills_logos">
-                <img width="50%" height="50%" src="/Languages logos/MySQL_logo-removebg-preview.png" alt="">
-                <h4>MySQL</h4>
+            <div class="skills_logos"  class="skills-card">
+                <img class="skills-card-img" width="50%" height="50%" src="/Languages logos/MySQL_logo-removebg-preview.png" alt="">
+                <h4 class="skills-card-name">MySQL</h4>
             </div>
             <!-- ------------------------------- -->
-            <div class="skills_logos">
-                <img width="50%" height="50%" src="/Languages logos/Spring_boot_logo-removebg-preview.png" alt="">
-                <h4>Spring</h4>
+            <div class="skills_logos"  class="skills-card">
+                <img class="skills-card-img" width="50%" height="50%" src="/Languages logos/Spring_boot_logo-removebg-preview.png" alt="">
+                <h4 class="skills-card-name">Spring</h4>
             </div>
             <!----------------------------------->
-            <div class="skills_logos">
+            <div class="skills_logos"  class="skills-card">
 
             </div>
             <!-- ------------------------------- -->
-            <div class="skills_logos">
+            <div class="skills_logos"  class="skills-card">
 
             </div>
             <!-- ------------------------------- -->
@@ -150,7 +150,7 @@
 
     <!-- Section 4 starts -->
 
-    <div class="Section4">
+    <div class="Section4" class="nav-link projects">
 
         <h2 id="section4">Projects</h2>
         <!-- Line colors code starts -->
@@ -165,35 +165,38 @@
 
         <div class="Projects_div">
             <!-- ------------------------------- -->
-            <div class="Projects">
-                <img src="/My_Project_1_Photo2.png" alt="">
-                <h4>Fashionized Website</h4>
-                <h5>A fashion based Ecommerce website</h5>
+            <div class="Projects" class="project-card">
+                <a class="project-deployed-link" href="https://peaceful-douhua-5883ad.netlify.app/"><img src="/My_Project_1_Photo2.png" alt=""></a> 
+                <h4 class="project-title">Fashionized Website</h4>
+                <h5 class="project-description">A fashion based Ecommerce website</h5>
                 <h4 id="techstack">Tech stacks</h4>
-                <ul>
+                <ul class="project-tech-stack">
                     
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                     
                 </ul>
+                <a  class="project-github-link" href=""><i class="fab fa-github"></i></a>
+                
             </div>
             <!-- ------------------------------- -->
-            <div class="Projects">
-                <img src="/My_Project_2_Photo2_crp.png" alt="">
-                <h4>FitFreak Website</h4>
-                <h5>A fitness and health based website</h5>
+            <div class="Projects" class="project-card">
+                <a class="project-deployed-link" href="https://relaxed-madeleine-48f703.netlify.app/"><img src="/My_Project_2_Photo2_crp.png" alt=""></a> 
+                <h4 class="project-title">FitFreak Website</h4>
+                <h5 class="project-description">A fitness and health based website</h5>
                 <h4 id="techstack">Tech stacks</h4>
-                <ul>
+                <ul class="project-tech-stack">
                     
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
                     
                 </ul>
+                <a  class="project-github-link" href=""><i class="fab fa-github"></i></a>
             </div>
             <!-- ------------------------------- -->
-            <div class="Projects">
+            <div class="Projects" class="project-card">
 
             </div>
         </div>
@@ -271,10 +274,33 @@
 
     <!-- Section 5 ends -->
 
+    <!-- Section 5 (ii) starts -->
+
+<div class="section5ii">
+
+    <h2>Github</h2>
+    <!-- Line colors code starts -->
+
+    <div id="lines">
+        <div class="childline1"></div>
+        <div class="childline2"></div>
+        <div class="childline3"></div>
+    </div>
+
+    <div class="githubcards">
+        <img id="github-stats-card" src="/Github stats.png" alt="">
+        <img id="github-top-langs" src="/Most languages used.png" alt="">
+        <img id="github-streak-stats" src="/Github streak.png" alt="">
+    </div>
+    <img class="github_heatmap" class="react-activity-calendar" src="/Github heatmap.png" alt="">
+</div>
+
+
+    <!-- Section 5 (ii) ends -->
 
     <!-- Section 6 starts -->
 
-    <div id="contact">
+    <div id="contact" class="contact" class="nav-link contact">
         <h1 id="section6">Contacts</h1>
         <!-- Line colors code starts -->
 
@@ -289,18 +315,20 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="subtitle">Contact Me</h1>
-                    <p><i class="fas fa-paper-plane"></i>soumitdas500@gmail.com</p>
-                    <p><i class="fas fa-phone-square-alt"></i>+91 7908597421</p>
+                    <p id="contact-email"><i class="fas fa-paper-plane"></i>soumitdas500@gmail.com</p>
+                    <p id="contact-phone"><i class="fas fa-phone-square-alt"></i>+91 7908597421</p>
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/soumit-das-52620b242/" target="_blank"><i
+                        <a id="contact-linkedin" href="https://www.linkedin.com/in/soumit-das-52620b242/" target="_blank"><i
                                 class="fab fa-linkedin" id="Linkedin-icon"></i></a>
                         <a href="https://m.facebook.com/100022097675884/" target="_blank"><i class="fab fa-facebook"
                                 id="Facebook-icon"></i></a>
                         <a href="https://instagram.com/_soumit_das?igshid=ZDdkNTZiNTM=" target="_blank"><i
                                 class="fab fa-instagram" id="insta-icon"></i></a>
+                        <a id="contact-github" href="https://github.com/Soumit-Das" target="_blank"><i
+                             class="fab fa-github"></i></a>
                     </div>
                     <!-- HTML !-->
-                    <button class="button-1" role="button"><a href="/Soumit-Das-Resume (2).pdf" download
+                    <button id="resume-button-1" class="button-1" role="button"><a id="resume-link-1" href="/Soumit-Das-Resume (2).pdf" download
                             class="downbtn">Download Resume</a></button>
 
                 </div>
@@ -323,7 +351,7 @@
 
        window.addEventListener("scroll",function(){
         var header = document.getElementById("nav-menu");
-        header.classList.toggle("sticky",window.scrollY > 100)
+        header.classList.toggle("sticky",window.scrollY > 50)
        })
      
 
