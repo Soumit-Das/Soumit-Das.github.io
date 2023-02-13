@@ -149,9 +149,7 @@ nav.sticky ul li a{
   /* position: absolute;
 z-index: 10; */
 }
-#user-detail-intro{
-  /* border: 2px solid red; */
-}
+
 .section2>h2 {
   text-align: center;
   color: white;
@@ -344,7 +342,7 @@ background-color: #86c232;
   /* margin: auto; */
   border: 0px solid red;
   height: 550px;
-  width: 85%;
+  width: 95%;
   display: flex;
   justify-content: space-around;
 }
@@ -356,14 +354,15 @@ background-color: #86c232;
 }
 .Projects {
   border: 0px solid salmon;
-  width: 28%;
+  width: 22%;
+  height: 88%;
   background-color: rgb(255 255 255 / 10%);
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .Projects>a>img {
-  height: 60%;
+  height: 55%;
   width: 100%;
   border-radius: 8px 8px 0px 0px;
 }
@@ -587,13 +586,13 @@ margin-bottom: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.contact {
+#contact {
   background: #000;
   border: 0px solid red;
   height: 650px;
 }
 
-.contact>h1 {
+#contact>h1 {
   text-align: center;
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -614,7 +613,7 @@ margin-bottom: 8px;
   justify-content: center;
 }
 
-.contact>h1,
+#contact>h1,
 p {
   color: white;
 }
