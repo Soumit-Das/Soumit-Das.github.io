@@ -45,6 +45,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-left: 500px;
+  margin-right: 200px;
   width: 47%;
   align-items: center;
   text-align: center;
@@ -76,9 +77,10 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: fit-content;
+  width: 130px;
   word-break: break-word;
   border: 3px solid silver;
+  margin-right: 70px;
 }
 
 .button-34>a {
@@ -92,6 +94,11 @@ nav.sticky{
 nav.sticky ul li a{
   color: black;
 }
+
+
+
+
+
 .banner {
   /* border: 2px solid red; */
   position: absolute;
@@ -116,11 +123,13 @@ nav.sticky ul li a{
   top: 26%;
   left: 60%;
   margin-bottom: 0px;
+  border-radius: 10px;
 }
 
 .mypicdiv>img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 .name_in_banner {
@@ -300,7 +309,7 @@ background-color: #86c232;
 
 }
 
-.skills_logos {
+.skills-card {
   border: 0px solid red;
   background-color: #21282d;
   border-radius: 5px;
@@ -309,11 +318,11 @@ background-color: #86c232;
   /* padding-top: 30px; */
 }
 
-.skills_logos>img {
+.skills-card-img {
   margin-top: 25px;
 }
 
-.skills_logos>h4 {
+.skills-card-name {
   margin-top: 10px;
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -352,7 +361,7 @@ background-color: #86c232;
   font-size: 23px;
   margin-left: 10px;
 }
-.Projects {
+.project-card {
   border: 0px solid salmon;
   width: 22%;
   height: 88%;
@@ -361,19 +370,19 @@ background-color: #86c232;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.Projects>a>img {
+.project-card>a>img {
   height: 55%;
   width: 100%;
   border-radius: 8px 8px 0px 0px;
 }
-.Projects>h4 {
+.project-card>h4 {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
   margin-top: 13px;
   margin-left: 10px;
 }
-.Projects>h5 {
+.project-card>h5 {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -381,7 +390,7 @@ background-color: #86c232;
   margin-top: 5px;
   margin-bottom: 0px;
 }
-.Projects>ul>li {
+.project-card>ul>li {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -390,7 +399,7 @@ background-color: #86c232;
   margin-top: 10px;
   margin-bottom: 5px;
 }
-.Projects>ul {
+.project-card>ul {
 margin-left: 30px;
 margin-bottom: 8px;
 }
@@ -572,11 +581,16 @@ margin-bottom: 8px;
   justify-content: space-evenly;
   padding-top: 80px;
 }
-.githubcards>img{
+.githubcards>a{
   border: 2px solid silver;
   width: 26%;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.githubcards>a>img{
+width: 100%;
+height: 100%;
+border-radius: 8px;
 }
 .github_heatmap{
   border: 2px solid silver;
@@ -740,3 +754,162 @@ form textarea {
     color:#e7222e ;
   } */
 /* #e7222e */
+
+
+/* Responsiveness works */
+
+@media only screen and (max-width: 1000px){
+  .nav_parent {
+    margin-left: 50px;
+    margin-right: 70px;
+    width: 80%;
+    border: 0px solid red;
+  }
+  .navbar {
+    border: 2px solid #86c232;
+    width: 200px;
+  }
+  .button-34 {
+    width: 100px;
+  }
+  .button-34>a {
+    font-size: 10px;
+  }
+
+  .banner_img {
+    max-width:  800px;
+    height: 545px;
+  }
+  
+  .mypicdiv {
+    border: 2px solid silver;
+    height: 400px;
+    width: 310px;
+    position: absolute;
+    top: 26%;
+    left: 110%;
+    margin-bottom: 0px;
+    border-radius: 5px;
+  }
+  
+  .name_in_banner {
+    position: absolute;
+    top: 38%;
+    left: 10px;
+  }
+  
+  .name_in_banner>h2 {
+    color: tomato;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+  }
+  
+  .name_in_banner>h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+  }
+  nav.sticky{
+    transition: ease-in 420ms;
+    background: rgb(246, 244, 244);
+  }
+  nav.sticky ul li a{
+    color: black;
+  }
+  .section2 {
+    height: 370px;
+    background-color: #222629;
+    margin-top: 526px;
+    width: 800px;
+  }
+
+/* BMW Msport colors code starts */
+
+
+#lines {
+  display: flex;
+  border: 0px solid red;
+  height: 5px;
+  width: 330px;
+  margin: auto;
+  justify-content: center;
+}
+
+.childline1 {
+  border: 0px solid yellow;
+  width: 33%;
+  background-color: #81c4ff;
+}
+
+.childline2 {
+  border: 0px solid skyblue;
+  width: 33%;
+  background-color: #16588e;
+}
+
+.childline3 {
+  border: 0px solid yellow;
+  width: 33%;
+  background-color: #e7222e;
+}
+
+/* BMW Msport colors code ends */
+
+.section2>h2 {
+  font-size: 40px;
+}
+.section2>p {
+  margin-top: 50px;
+}
+
+.section3 {
+  width: 800px;
+}
+
+.section3>h2 {
+  font-size: 40px;
+}
+
+.skillsdiv {
+  margin: 80px auto auto auto;
+  /* margin: auto; */
+  border: 2px solid red;
+  height: 460px;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(4, 170px);
+  grid-template-rows: repeat(4, 170px);
+  gap: 50px 20px;
+  justify-content: center;
+
+}
+
+.skills-card {
+  border: 2px solid red;
+  background-color: #21282d;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  text-align: center;
+
+  /* padding-top: 30px; */
+}
+
+.skills-card>img {
+  margin-top: 25px;
+}
+
+.skills-card>h4 {
+  margin-top: 10px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+
+}
+
+
+
+
+
+
