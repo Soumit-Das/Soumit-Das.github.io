@@ -38,7 +38,7 @@ body {
 .nav_parent>ul>li>a {
   text-decoration: none;
   color: white;
-  font-size: 17px;
+  font-size: 18.5px;
 }
 
 .nav_parent {
@@ -89,7 +89,7 @@ body {
 }
 nav.sticky{
   transition: ease-in 420ms;
-  background: rgb(246, 244, 244);
+  background: rgb(246, 244, 244,0.87);
 }
 nav.sticky ul li a{
   color: black;
