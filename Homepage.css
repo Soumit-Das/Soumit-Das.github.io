@@ -321,7 +321,12 @@ background-color: #86c232;
 .skills-card-img {
   margin-top: 25px;
 }
-
+#bootstrap-logo{
+  height: 90px;
+  width: 110px;
+  border: 0px solid red;
+  margin-top: 20px;
+}
 .skills-card-name {
   margin-top: 10px;
   color: white;
