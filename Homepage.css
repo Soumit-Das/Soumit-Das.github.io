@@ -567,7 +567,7 @@ margin-bottom: 8px;
 
 .section5ii{
   width: 100%;
-  height: 750px;
+  height: 830px;
   background-color: #232b2b;
   text-align: center;
 }
@@ -605,10 +605,11 @@ border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .gitcalen{
-  width: 90%;
+  width: 95%;
   height: 210px;
   margin: auto;
   mix-blend-mode:screen;
+  margin-top: 30px;
 }
 .strk{
   width: 490px;
@@ -687,6 +688,7 @@ p {
 
 .social-icons {
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .social-icons a {
@@ -735,6 +737,37 @@ p {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+.button-1 {
+  background-color: #e7222e;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+.button-1>a{
+  text-decoration: none;
+  color: white;
 }
 
 .button-1:hover,
