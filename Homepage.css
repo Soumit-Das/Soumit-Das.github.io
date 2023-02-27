@@ -139,7 +139,7 @@ nav.sticky ul li a{
 }
 
 .name_in_banner>h2 {
-  color: tomato;
+  color: #e7222e;
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
 }
@@ -608,6 +608,7 @@ border-radius: 8px;
   width: 90%;
   height: 210px;
   margin: auto;
+  mix-blend-mode:screen;
 }
 .strk{
   width: 490px;
@@ -658,11 +659,11 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-.contact-left>.button-1 {
-  margin-top: 25px;
+#resume-button-2 {
+  margin-top: 10px;
 }
 
-.contact-left>.button-1>a {
+#resume-button-2>a {
   color: white;
   text-decoration: none;
 }
@@ -702,14 +703,14 @@ p {
   transform: translateY(-5px);
 }
 
-.btn.btn2 {
+#resume-button-2 {
   display: inline-block;
   background: #ff004f;
 }
 
 
 /* CSS */
-.button-1 {
+#resume-button-2 {
   background-color: #e7222e;
   border-radius: 8px;
   border-style: none;
