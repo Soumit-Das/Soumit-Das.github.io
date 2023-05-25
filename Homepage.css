@@ -77,8 +77,8 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 21%;
-  word-break: break-word;
+  width: auto;
+  /* word-break: break-word; */
   border: 3px solid silver;
   margin-right: 70px;
 }
@@ -94,9 +94,6 @@ nav.sticky{
 nav.sticky ul li a{
   color: black;
 }
-
-
-
 
 
 .banner {
@@ -842,13 +839,14 @@ form textarea {
   }
   .navbar {
     border: 2px solid #86c232;
-    width: 200px;
+    width: auto;
   }
   .button-34 {
-    width: 100px;
+    width: auto;
+    margin-right: 10%;
   }
   .button-34>a {
-    font-size: 10px;
+    font-size: 70%;
   }
 
   .banner_img {
@@ -1338,7 +1336,7 @@ margin: 10px;
 .container{
 
   margin: 20px;
-  border: 2px solid red;
+  border: 0px solid red;
   padding-bottom: 20px;
 }
 .contact-left{
